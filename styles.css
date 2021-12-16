@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+.main{
+  padding-top:100px;
+  background-color: #71DFE7;
+  position:relative;
+}
+p{
+  line-height: 2;
+}
+.cloud_1{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.cloud_2{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.265rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+.top{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.bottom{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+h2{
+  font-family:  verdana;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  /* line-height: 2; */
+}
+a:hover{
+  color: #cfe2f3;
+}
+.face_image{
+  margin:50px auto;
+  width:300px;
+  height:300px;
+}
+.skill_image{
+  width:300px;
+  height:300px;
+}
+.skillrow_image{
+  width:300px;
+  height:300px;
+}
+.skill-row{
+  /* padding-left: 50px;s */
+  padding-top: 50px;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  clear: left;
+}
+.skillrow_image1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skillrow_image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.dotted-line{
+  border-style: dotted none none;
+  width: 20%;
+  border-width: 7px;
+  color : #EDD2F3;
+  margin: 80px auto;
+}
+.button-contact-me{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #71DFE7;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.button-contact-me:hover {
+    background-color: #396EB0;
+}
+.button-contact-me:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.contact-me{
+  margin-bottom:100px;
+}
+.bottom-container{
+  height:100px;
+  /* text-decoration: none; */
+  background-color: #71DFE7;
+  padding-top: 40px;
+};
